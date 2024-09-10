@@ -1,0 +1,168 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f7f7f7; /* Light gray background for the whole page */
+}
+
+/* Header Section */
+header {
+    background-color: #007BFF; /* Solid background color for the header */
+    height: 100vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-content {
+    z-index: 1;
+}
+
+.header-content h1 {
+    font-size: 3.5em;
+    margin: 0;
+    font-weight: 600;
+}
+
+.header-content p {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+.header-content .btn {
+    padding: 10px 25px;
+    background-color: #0056b3; /* Darker shade for button */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+}
+
+.header-content .btn:hover {
+    background-color: #004494; /* Even darker shade on hover */
+}
+
+/* Profile Section */
+#profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: #ffffff; /* White background for the profile section */
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 50px;
+}
+
+.profile-content {
+    max-width: 600px;
+}
+
+.profile-content h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.social-links li {
+    margin-right: 20px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: 600;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+/* Skills Section */
+#skills {
+    padding: 50px;
+    background-color: #e9ecef; /* Light gray background for skills section */
+    text-align: center;
+}
+
+#skills h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+
+.skills-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skill {
+    background-color: #007BFF;
+    color: white;
+    padding: 15px 30px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+}
+
+.skill:hover {
+    background-color: #0056b3;
+}
+
+/* Projects Section */
+#projects {
+    padding: 50px;
+    background-color: #ffffff; /* White background for the projects section */
+}
+
+#projects h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.project-item {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 20px;
+}
+
+.project-item h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.project-item p {
+    font-size: 1.2em;
+}
+
+/* Contact Section */
+#contact {
+    padding: 50px;
+    background-color: #e9ecef; /* Light gray background for contact section */
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+
+#contact form {
+    max-width: 600px
+}
